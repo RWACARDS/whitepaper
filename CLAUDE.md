@@ -56,6 +56,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Matching bonus: 5% / 4% / 3% for lines 1 / 2 / 3, unlocked at Pro Manager (1st), Director (plus 2nd), Pro Director (all three); works regardless of the partner's rank.
 - Rewards credited instantly in USDT on every sale; rank recalculates immediately; team volume never resets, career rank never expires; no cap on depth or total rewards.
 - A sale: card purchase of any tier, tier upgrade, gift certificate at activation (recorded to the buyer). Not volume: top-ups, reissues, service fees. Own purchase is the sponsor's personal sale.
+- Ecosystem sync: referral connections carry over from RWA NFTFI by confirmed email; the sponsor is fixed once and forever, the synchronization has no expiry; teams, volumes, ranks and balances do not transfer.
 - 200+ countries.
 - 175,000,000+ merchant locations.
 - Digital dollar market: $258B.
