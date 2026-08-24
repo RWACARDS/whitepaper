@@ -67,5 +67,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Roadmap: Q4 2026 - any-crypto top-up with auto-conversion, promo campaigns; Q1 2027 - P2P transfers, withdrawal from card to crypto; Q1-Q2 2027 - withdrawal to any bank account or card; Q3 2027 - new products.
 - The only official website: rwanftcards.com. Support: chat on the site, email support@rwanftcards.com.
 - Support never asks for: passwords, codes or seed phrases; documents in the chat; card details; payments or transfers.
+- Legal documents at kyc.rwanftcards.com/legal/: terms-of-service.html, user-agreement.html, privacy-policy.html, aml-and-id-policy.html. The full documents prevail over the whitepaper.
+- Deliberate disclaimers, keep verbatim wherever they appear: "does not promise or guarantee income", "does not provide legal, tax or financial advice".
 
 Before committing any content change, re-check it against the hard content rules and the canonical numbers above.
