@@ -81,6 +81,46 @@
             ]
           }
         ]
+      },
+      {
+        "language": "ru",
+        "groups": [
+          {
+            "group": "Обзор",
+            "pages": [
+              "ru/introduction",
+              "ru/trust-and-security"
+            ]
+          },
+          {
+            "group": "Карта",
+            "pages": [
+              "ru/product",
+              "ru/limits-and-fees",
+              "ru/how-to-get-your-card",
+              "ru/top-up-and-everyday-use",
+              "ru/physical-cards",
+              "ru/gift-certificates"
+            ]
+          },
+          {
+            "group": "Партнёрская программа",
+            "pages": [
+              "ru/royalty-program",
+              "ru/rwa-nftfi-ecosystem"
+            ]
+          },
+          {
+            "group": "Ресурсы",
+            "pages": [
+              "ru/roadmap",
+              "ru/faq",
+              "ru/glossary",
+              "ru/support",
+              "ru/legal"
+            ]
+          }
+        ]
       }
     ]
   },
