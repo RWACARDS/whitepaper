@@ -48,6 +48,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Minimum top-up: $20; smaller amounts accumulate and are credited with the next top-up.
 - Virtual card issuance: within 5 minutes of tier payment. Verification approval comes first, payment after.
 - Top-up: crypto only - no bank card, no bank transfer.
+- One active card per verified identity - applies to gift certificates too.
 - Card currency: US dollars. Maintenance: $0 for the entire 3-year term.
 - USDT: BEP-20 and TRC-20 networks. USDC: BEP-20 only - never mention "USDC TRC-20" in any form.
 - Rewards withdrawal: weekly, minimum $5, in USDT BEP-20.
