@@ -1,0 +1,77 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "RWA NFT Cards",
+  "description": "RWA NFT Cards whitepaper - a premium Visa debit card powered by stablecoins",
+  "colors": {
+    "primary": "#C9A962",
+    "light": "#DCC08A",
+    "dark": "#A8873F"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "light": "#FAF9F6",
+      "dark": "#0B0B0D"
+    }
+  },
+  "styling": {
+    "codeblocks": "dark"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "en/introduction",
+              "en/trust-and-security"
+            ]
+          },
+          {
+            "group": "The Card",
+            "pages": [
+              "en/product",
+              "en/limits-and-fees",
+              "en/how-to-get-your-card",
+              "en/top-up-and-everyday-use",
+              "en/physical-cards",
+              "en/gift-certificates"
+            ]
+          },
+          {
+            "group": "Partner Program",
+            "pages": [
+              "en/royalty-program",
+              "en/rwa-nftfi-ecosystem"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "en/roadmap",
+              "en/faq",
+              "en/glossary",
+              "en/support",
+              "en/legal"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "search": {
+    "prompt": "Search the whitepaper"
+  }
+}
