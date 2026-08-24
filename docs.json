@@ -4,19 +4,18 @@
   "name": "RWA NFT Cards",
   "description": "RWA NFT Cards whitepaper - a premium Visa debit card powered by stablecoins",
   "colors": {
-    "primary": "#FFFFFF",
+    "primary": "#0A0A0A",
     "light": "#FFFFFF",
     "dark": "#171717"
   },
   "favicon": "/favicon.svg",
   "appearance": {
-    "default": "dark",
-    "strict": true
+    "default": "light"
   },
   "background": {
     "decoration": "gradient",
     "color": {
-      "light": "#FAFAFA",
+      "light": "#FFFFFF",
       "dark": "#0A0A0A"
     }
   },
