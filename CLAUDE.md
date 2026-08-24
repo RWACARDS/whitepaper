@@ -65,6 +65,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - 30 independent BINs.
 - Sales start: September 29, 2026. First wave: 5,000 cards.
 - Roadmap: Q4 2026 - any-crypto top-up with auto-conversion, promo campaigns; Q1 2027 - P2P transfers, withdrawal from card to crypto; Q1-Q2 2027 - withdrawal to any bank account or card; Q3 2027 - new products.
-- The only official website: rwanftcards.com.
+- The only official website: rwanftcards.com. Support: chat on the site, email support@rwanftcards.com.
+- Support never asks for: passwords, codes or seed phrases; documents in the chat; card details; payments or transfers.
 
 Before committing any content change, re-check it against the hard content rules and the canonical numbers above.
