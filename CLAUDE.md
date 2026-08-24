@@ -12,6 +12,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - The sidebar shows no site name: `logo/logo.svg` is an intentionally empty SVG that suppresses the name text (fixed by the user). Replace it with the real brand logo when the user supplies one.
 - Introduction reserves a video slot (MDX comment right under the frontmatter): when the user sends the video link, embed it as a 16:9 iframe inside a Frame there.
 - Pages are authored only with markdown and native Mintlify components (Card, Columns, Note, Warning, markdown tables and lists). Never add raw HTML elements (div, span, table) or inline styles to MDX - the user edits pages in the Mintlify visual editor, where raw HTML renders as an uneditable block.
+- Never use wide comparison tables (fixed by the user - they clip and scroll in the content column). Tier and rank data is a Card grid: one card per tier/rank with a fact list; absent features are omitted, not dashed. Narrow tables (up to 3 columns, like the reward-split example) are fine.
 
 ## Git workflow (fixed by the user)
 
