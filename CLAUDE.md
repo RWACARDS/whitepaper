@@ -52,6 +52,10 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Card currency: US dollars. Maintenance: $0 for the entire 3-year term.
 - USDT: BEP-20 and TRC-20 networks. USDC: BEP-20 only - never mention "USDC TRC-20" in any form.
 - Rewards withdrawal: weekly, minimum $5, in USDT BEP-20.
+- Royalty Program: up to 40% on every sale; personal-sale rates by rank (Starter to Founder): 12 / 17 / 21 / 24 / 26 / 29 / 32 / 34 / 36 / 40 percent; team volumes: $2,500 / $7,500 / $25,000 / $125,000 / $250,000 / $500,000 / $1,000,000 / $2,000,000 / $5,000,000 (Agent to Founder).
+- Matching bonus: 5% / 4% / 3% for lines 1 / 2 / 3, unlocked at Pro Manager (1st), Director (plus 2nd), Pro Director (all three); works regardless of the partner's rank.
+- Rewards credited instantly in USDT on every sale; rank recalculates immediately; team volume never resets, career rank never expires; no cap on depth or total rewards.
+- A sale: card purchase of any tier, tier upgrade, gift certificate at activation (recorded to the buyer). Not volume: top-ups, reissues, service fees. Own purchase is the sponsor's personal sale.
 - 200+ countries.
 - 175,000,000+ merchant locations.
 - Digital dollar market: $258B.
