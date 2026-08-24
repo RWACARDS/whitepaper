@@ -35,5 +35,6 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Digital dollar market: $258B.
 - 30 independent BINs.
 - Sales start: September 29, 2026.
+- The only official website: rwanftcards.com.
 
 Before committing any content change, re-check it against the hard content rules and the canonical numbers above.
