@@ -9,6 +9,14 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - 15 pages, order is fixed - see `navigation` in `docs.json`.
 - Workflow: the user supplies final page texts one page at a time. Never invent product facts, numbers, names, or marketing copy beyond what the user provides. Placeholder pages only describe scope.
 
+## Git workflow (fixed by the user)
+
+- All work happens on the branch `claude/rwa-nft-cards-whitepaper-d3hm10` - never develop on or push to any other branch (except `main` bootstrap, already done).
+- Every pull request is head `claude/rwa-nft-cards-whitepaper-d3hm10` into base `main`. When the user says "make a new PR", it always means exactly this.
+- While a PR from this branch is open, new commits pushed to the branch land in that same open PR; a genuinely new PR is possible only after the current one is merged or closed.
+- After a PR is merged, restart the branch from the latest `main` (`git fetch origin main && git checkout -B claude/rwa-nft-cards-whitepaper-d3hm10 origin/main`) and build the next page there.
+- The user merges PRs in GitHub themselves; never merge and never push to `main` directly.
+
 ## Brand and tone
 
 - Premium, dark, restrained. Dark background, metal textures, gold accents, large highlight numbers.
