@@ -57,6 +57,8 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Rewards credited instantly in USDT on every sale; rank recalculates immediately; team volume never resets, career rank never expires; no cap on depth or total rewards.
 - A sale: card purchase of any tier, tier upgrade, gift certificate at activation (recorded to the buyer). Not volume: top-ups, reissues, service fees. Own purchase is the sponsor's personal sale.
 - Ecosystem sync: referral connections carry over from RWA NFTFI by confirmed email; the sponsor is fixed once and forever, the synchronization has no expiry; teams, volumes, ranks and balances do not transfer.
+- Age: 18 and older. Documents: international passport (everyone); driver's license or ID card (most nationalities); must be valid. Country list is set by the banking partner; card verification is always passed separately.
+- No credit limit, no cashback, no interest on the balance. Incoming bank transfers are not accepted. Conversion terms - by the sales launch.
 - 200+ countries.
 - 175,000,000+ merchant locations.
 - Digital dollar market: $258B.
