@@ -11,7 +11,9 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Never create images, photos, or graphic assets (SVG logos, favicons, illustrations) on your own initiative - the user supplies all imagery themselves. Build a visual element only when the user explicitly asks for it in the page brief.
 - The sidebar shows no site name: `logo/logo.svg` is an intentionally empty SVG that suppresses the name text (fixed by the user). Replace it with the real brand logo when the user supplies one.
 - Introduction reserves a video slot (MDX comment right under the frontmatter): when the user sends the video link, embed it as a 16:9 iframe inside a Frame there.
-- Pages are authored only with markdown and native Mintlify components (Card, Columns, Note, Warning, markdown tables and lists). Never add raw HTML elements (div, span, table) or inline styles to MDX - the user edits pages in the Mintlify visual editor, where raw HTML renders as an uneditable block.
+- Pages are authored only with markdown and native Mintlify components (Card, Columns, Steps, Accordion, Update, Frame, markdown tables and lists). Never add raw HTML elements (div, span, table) or inline styles to MDX - the user edits pages in the Mintlify visual editor, where raw HTML renders as an uneditable block.
+- No colored callouts (Note, Warning, Tip, Info) - their blue/orange/green accents break the black-and-white palette. Highlights and warnings are blockquotes, with a bold lead where a label is needed.
+- Cards are only for short, scannable facts: numbers, options, list items, links. Long narrative paragraphs stay as prose or H3 sections - never stretched into side-by-side cards. Never leave an empty-body card next to filled ones.
 - Never use wide comparison tables (fixed by the user - they clip and scroll in the content column). Tier and rank data is a Card grid: one card per tier/rank with a fact list; absent features are omitted, not dashed. Narrow tables (up to 3 columns, like the reward-split example) are fine.
 
 ## Git workflow (fixed by the user)
