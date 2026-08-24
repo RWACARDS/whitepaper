@@ -9,6 +9,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - 15 pages, order is fixed - see `navigation` in `docs.json`.
 - Workflow: the user supplies final page texts one page at a time. Never invent product facts, numbers, names, or marketing copy beyond what the user provides. Placeholder pages only describe scope.
 - Never create images, photos, or graphic assets (SVG logos, favicons, illustrations) on your own initiative - the user supplies all imagery themselves. Build a visual element only when the user explicitly asks for it in the page brief.
+- Pages are authored only with markdown and native Mintlify components (Card, Columns, Note, Warning, markdown tables and lists). Never add raw HTML elements (div, span, table) or inline styles to MDX - the user edits pages in the Mintlify visual editor, where raw HTML renders as an uneditable block.
 
 ## Git workflow (fixed by the user)
 
@@ -20,7 +21,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 
 ## Brand and tone
 
-- Premium, dark, restrained. Strictly black and white (fixed by the user): black background, white text and accents, grayscale shades only. Never introduce any other color - no gold, no accent hues - in config or page styling. Large highlight numbers stay.
+- Premium, dark, restrained. Strictly black and white (fixed by the user): black background, white text and accents, grayscale shades only. Never introduce any other color - no gold, no accent hues - in config or page styling. Highlight numbers with bold text or component titles, not with custom styling.
 - Brand voice reference lines: "Spend freely. Your money, your rules", "You earn the difference", "Crypto in your wallet - fiat on your card".
 - Site is dark-mode only (`appearance.default: dark`, `strict: true`).
 
