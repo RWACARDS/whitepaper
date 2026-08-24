@@ -8,6 +8,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Content language is English. All pages live in `en/`. Navigation uses the `languages` array in `docs.json` so more languages can be added later (one folder per language + one `languages` entry mirroring the same groups and page order). Do not add other languages until explicitly asked.
 - 15 pages, order is fixed - see `navigation` in `docs.json`.
 - Workflow: the user supplies final page texts one page at a time. Never invent product facts, numbers, names, or marketing copy beyond what the user provides. Placeholder pages only describe scope.
+- Never create images, photos, or graphic assets (SVG logos, favicons, illustrations) on your own initiative - the user supplies all imagery themselves. Build a visual element only when the user explicitly asks for it in the page brief.
 
 ## Git workflow (fixed by the user)
 
