@@ -15,7 +15,7 @@ The site runs at `http://localhost:3000`.
 
 - `docs.json` - site configuration, theme, and navigation
 - `en/` - English content, 15 pages
-- `logo/`, `favicon.svg` - brand assets (placeholders, to be replaced with final brand files)
+- `favicon.svg` - placeholder favicon (to be replaced with the final brand file)
 - `CLAUDE.md` - editorial rules and canonical numbers; read it before editing any content
 
 ## Adding a language
