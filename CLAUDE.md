@@ -9,7 +9,12 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - 15 pages, order is fixed - see `navigation` in `docs.json`.
 - Workflow: the user supplies final page texts one page at a time. Never invent product facts, numbers, names, or marketing copy beyond what the user provides. Placeholder pages only describe scope.
 - Never create images, photos, or graphic assets (SVG logos, favicons, illustrations) on your own initiative - the user supplies all imagery themselves. Build a visual element only when the user explicitly asks for it in the page brief.
-- Pages are authored only with markdown and native Mintlify components (Card, Columns, Note, Warning, markdown tables and lists). Never add raw HTML elements (div, span, table) or inline styles to MDX - the user edits pages in the Mintlify visual editor, where raw HTML renders as an uneditable block.
+- The sidebar shows no site name: `logo/logo.svg` is an intentionally empty SVG that suppresses the name text (fixed by the user). Replace it with the real brand logo when the user supplies one.
+- Introduction reserves a video slot (MDX comment right under the frontmatter): when the user sends the video link, embed it as a 16:9 iframe inside a Frame there.
+- Pages are authored only with markdown and native Mintlify components (Card, Columns, Steps, Accordion, Update, Frame, markdown tables and lists). Never add raw HTML elements (div, span, table) or inline styles to MDX - the user edits pages in the Mintlify visual editor, where raw HTML renders as an uneditable block.
+- No colored callouts (Note, Warning, Tip, Info) - their blue/orange/green accents break the black-and-white palette. Highlights and warnings are blockquotes, with a bold lead where a label is needed.
+- Cards are only for short, scannable facts: numbers, options, list items, links. Long narrative paragraphs stay as prose or H3 sections - never stretched into side-by-side cards. Never leave an empty-body card next to filled ones.
+- Never use wide comparison tables (fixed by the user - they clip and scroll in the content column). Tier and rank data is a Card grid: one card per tier/rank with a fact list; absent features are omitted, not dashed. Narrow tables (up to 3 columns, like the reward-split example) are fine.
 
 ## Git workflow (fixed by the user)
 
@@ -21,9 +26,9 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 
 ## Brand and tone
 
-- Premium, dark, restrained. Strictly black and white (fixed by the user): black background, white text and accents, grayscale shades only. Never introduce any other color - no gold, no accent hues - in config or page styling. Highlight numbers with bold text or component titles, not with custom styling.
+- Premium, restrained. Strictly black and white (fixed by the user): the light theme is the default (white background, black text); the dark theme (black background, white text) is available via the built-in light/dark toggle. Grayscale shades only in both themes. Never introduce any other color - no gold, no accent hues - in config or page styling. Highlight numbers with bold text or component titles, not with custom styling.
 - Brand voice reference lines: "Spend freely. Your money, your rules", "You earn the difference", "Crypto in your wallet - fiat on your card".
-- Site is dark-mode only (`appearance.default: dark`, `strict: true`).
+- Appearance: `default: light`, no `strict` - the theme switcher stays enabled.
 
 ## Hard content rules (apply to every page, every edit, every language)
 
@@ -50,19 +55,24 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Top-up: crypto only - no bank card, no bank transfer.
 - One active card per verified identity - applies to gift certificates too.
 - Card currency: US dollars. Maintenance: $0 for the entire 3-year term.
-- USDT: BEP-20 and TRC-20 networks. USDC: BEP-20 only - never mention "USDC TRC-20" in any form.
+- USDT: BEP-20 and TRC-20 networks. USDC: BEP-20 only - never mention "USDC TRC-20" in any form. BEP-20 = BNB Chain, TRC-20 = TRON.
 - Rewards withdrawal: weekly, minimum $5, in USDT BEP-20.
 - Royalty Program: up to 40% on every sale; personal-sale rates by rank (Starter to Founder): 12 / 17 / 21 / 24 / 26 / 29 / 32 / 34 / 36 / 40 percent; team volumes: $2,500 / $7,500 / $25,000 / $125,000 / $250,000 / $500,000 / $1,000,000 / $2,000,000 / $5,000,000 (Agent to Founder).
 - Matching bonus: 5% / 4% / 3% for lines 1 / 2 / 3, unlocked at Pro Manager (1st), Director (plus 2nd), Pro Director (all three); works regardless of the partner's rank.
 - Rewards credited instantly in USDT on every sale; rank recalculates immediately; team volume never resets, career rank never expires; no cap on depth or total rewards.
 - A sale: card purchase of any tier, tier upgrade, gift certificate at activation (recorded to the buyer). Not volume: top-ups, reissues, service fees. Own purchase is the sponsor's personal sale.
 - Ecosystem sync: referral connections carry over from RWA NFTFI by confirmed email; the sponsor is fixed once and forever, the synchronization has no expiry; teams, volumes, ranks and balances do not transfer.
+- Age: 18 and older. Documents: international passport (everyone); driver's license or ID card (most nationalities); must be valid. Country list is set by the banking partner; card verification is always passed separately.
+- No credit limit, no cashback, no interest on the balance. Incoming bank transfers are not accepted. Conversion terms - by the sales launch.
 - 200+ countries.
 - 175,000,000+ merchant locations.
 - Digital dollar market: $258B.
 - 30 independent BINs.
 - Sales start: September 29, 2026. First wave: 5,000 cards.
 - Roadmap: Q4 2026 - any-crypto top-up with auto-conversion, promo campaigns; Q1 2027 - P2P transfers, withdrawal from card to crypto; Q1-Q2 2027 - withdrawal to any bank account or card; Q3 2027 - new products.
-- The only official website: rwanftcards.com.
+- The only official website: rwanftcards.com. Support: chat on the site, email support@rwanftcards.com.
+- Support never asks for: passwords, codes or seed phrases; documents in the chat; card details; payments or transfers.
+- Legal documents at kyc.rwanftcards.com/legal/: terms-of-service.html, user-agreement.html, privacy-policy.html, aml-and-id-policy.html. The full documents prevail over the whitepaper.
+- Deliberate disclaimers, keep verbatim wherever they appear: "does not promise or guarantee income", "does not provide legal, tax or financial advice".
 
 Before committing any content change, re-check it against the hard content rules and the canonical numbers above.
