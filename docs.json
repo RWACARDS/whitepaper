@@ -20,13 +20,6 @@
     "content": "Sales start September 29, 2026 - [join the waitlist](https://rwanftcards.com)",
     "dismissible": true
   },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Join the waitlist",
-      "href": "https://rwanftcards.com"
-    }
-  },
   "contextual": {
     "options": ["copy", "view", "chatgpt", "claude"]
   },
