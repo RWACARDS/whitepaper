@@ -28,6 +28,13 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Card validity: 3 years (not 5).
 - Premium tier: $199 (not $149).
 - Tier prices: $49 / $199 / $299 / $499.
+- Tier names and composition: Standard (virtual), Premium (virtual, "Clients' choice"), Signature (virtual + plastic), Black (virtual + metal).
+- Per-transaction limits: up to $5,000 / $50,000 / $75,000 / $100,000 (Standard / Premium / Signature / Black).
+- Monthly limits: up to $25,000 / $1,000,000 / $1,500,000 / $3,000,000.
+- ATM withdrawals: Signature and Black only, up to $3,000 per day.
+- Top-up fee: 2.8% Standard, 2% Premium / Signature / Black ("starts at 2% depending on the tier").
+- Minimum top-up: $20; smaller amounts accumulate and are credited with the next top-up.
+- Card currency: US dollars. Maintenance: $0 for the entire 3-year term.
 - USDT: BEP-20 and TRC-20 networks. USDC: BEP-20 only - never mention "USDC TRC-20" in any form.
 - Rewards withdrawal: weekly, minimum $5, in USDT BEP-20.
 - 200+ countries.
