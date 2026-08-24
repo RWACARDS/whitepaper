@@ -32,6 +32,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Rewards withdrawal: weekly, minimum $5, in USDT BEP-20.
 - 200+ countries.
 - 175,000,000+ merchant locations.
+- Digital dollar market: $258B.
 - 30 independent BINs.
 - Sales start: September 29, 2026.
 
