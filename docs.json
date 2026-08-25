@@ -9,10 +9,9 @@
     "dark": "#171717"
   },
   "logo": {
-    "light": "/logo/logo.svg",
-    "dark": "/logo/logo.svg"
+    "light": "/images/apple-touch-icon.png",
+    "dark": "/images/apple-touch-icon.png"
   },
-  "favicon": "/favicon.svg",
   "appearance": {
     "default": "light"
   },
@@ -21,7 +20,12 @@
     "dismissible": true
   },
   "contextual": {
-    "options": ["chatgpt", "claude"]
+    "options": [
+      "chatgpt",
+      "claude",
+      "grok",
+      "aistudio"
+    ]
   },
   "background": {
     "decoration": "gradient",
