@@ -12,6 +12,7 @@
     "light": "/images/apple-touch-icon.png",
     "dark": "/images/apple-touch-icon.png"
   },
+  "favicon": "/favicon.png",
   "appearance": {
     "default": "light"
   },
