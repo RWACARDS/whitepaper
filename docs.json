@@ -9,10 +9,10 @@
     "dark": "#171717"
   },
   "logo": {
-    "light": "/logo/logo.svg",
-    "dark": "/logo/logo.svg"
+    "light": "/images/RWAlogofulldetailedlight.png",
+    "dark": "/images/Logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "appearance": {
     "default": "light"
   },
@@ -21,7 +21,12 @@
     "dismissible": true
   },
   "contextual": {
-    "options": ["copy", "view", "chatgpt", "claude"]
+    "options": [
+      "chatgpt",
+      "claude",
+      "grok",
+      "aistudio"
+    ]
   },
   "background": {
     "decoration": "gradient",
