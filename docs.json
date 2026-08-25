@@ -12,7 +12,10 @@
     "light": "/images/RWAlogofulldetailedlight.png",
     "dark": "/images/Logo.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": {
+    "light": "/images/apple-touch-icon.png",
+    "dark": "/images/apple-touch-icon.png"
+  },
   "appearance": {
     "default": "light"
   },
