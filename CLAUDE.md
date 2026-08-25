@@ -24,7 +24,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Glossary is a Tabs page (four tabs). Tooltips on first term mentions (Product: BINs, 3DS; How to Get Your Card: stablecoins; Top-Up: networks, 3DS) mirror Glossary definitions - keep them in sync when definitions change.
 - Escape dollar signs as \$ whenever a single line carries two or more amounts - bare $...$ pairs are parsed as LaTeX math and mangle the text, and bold does NOT protect them (the math parser runs first). Only separate table cells are safe.
 - No mermaid diagrams - the renderer ignores the grayscale forcing and fails the black-and-white bar (verified live). Flows stay as tables, Steps or cards.
-- Never use wide comparison tables (fixed by the user - they clip and scroll in the content column). Tier and rank data is a Card grid: one card per tier/rank with a fact list; absent features are omitted, not dashed. Narrow tables (up to 3 columns, like the reward-split example) are fine.
+- Never use wide comparison tables (fixed by the user - they clip and scroll in the content column); narrow tables of up to 3 columns are fine and are the right tool when numbers must be compared. Tier data is a Card grid (one card per tier with a fact list); rank data is a 3-column table (rank / personal sale / team volume) plus a bulleted list of team requirements - the ten-card ladder was replaced because comparing across cards was hard. Absent values are spelled out ("no requirement"), never dashed.
 
 ## Git workflow (fixed by the user)
 
