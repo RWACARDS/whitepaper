@@ -37,7 +37,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 ## Brand and tone
 
 - Premium, restrained. Strictly black and white (fixed by the user): the light theme is the default (white background, black text); the dark theme (black background, white text) is available via the built-in light/dark toggle. Grayscale shades only in both themes. Never introduce any other color - no gold, no accent hues - in config or page styling. Highlight numbers with bold text or component titles, not with custom styling.
-- Brand voice reference lines: "Spend freely. Your money, your rules", "You earn the difference", "Crypto in your wallet - fiat on your card".
+- Brand voice reference lines: "Spend free. Everywhere." (the landing page headline, kept in sync with it), "You earn the difference", "Crypto in your wallet - fiat on your card".
 - Appearance: `default: light`, no `strict` - the theme switcher stays enabled.
 
 ## Hard content rules (apply to every page, every edit, every language)
