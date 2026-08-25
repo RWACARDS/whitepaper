@@ -57,7 +57,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Per-transaction limits: up to $5,000 / $50,000 / $75,000 / $100,000 (Standard / Premium / Signature / Black).
 - Monthly limits: up to $25,000 / $1,000,000 / $1,500,000 / $3,000,000.
 - ATM withdrawals: Signature and Black only, up to $3,000 per day.
-- Daily limit: $100,000 Black; daily limits for Standard / Premium / Signature - to be published by the sales launch.
+- Daily limit: $100,000 Black; the other tiers publish no daily limit (fixed by the user: no "to be published" lists anywhere - upgrade terms come later, conversion terms are never detailed by us).
 - Physical card delivery: included in the tier price.
 - Top-up fee: 2.8% Standard, 2% Premium / Signature / Black ("starts at 2% depending on the tier").
 - Minimum top-up: $20; smaller amounts accumulate and are credited with the next top-up.
@@ -73,7 +73,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - A sale: card purchase of any tier, tier upgrade, gift certificate at activation (recorded to the buyer). Not volume: top-ups, reissues, service fees. Own purchase is the sponsor's personal sale.
 - Ecosystem sync: referral connections carry over from RWA NFTFI by confirmed email; the sponsor is fixed once and forever, the synchronization has no expiry; teams, volumes, ranks and balances do not transfer.
 - Age: 18 and older. Documents: international passport (everyone); driver's license or ID card (most nationalities); must be valid. Country list is set by the banking partner; card verification is always passed separately.
-- No credit limit, no cashback, no interest on the balance. Incoming bank transfers are not accepted. Conversion terms - by the sales launch.
+- No credit limit, no cashback, no interest on the balance. Incoming bank transfers are not accepted. Conversion runs through the payment network; the platform never promises to publish its terms.
 - 200+ countries.
 - 175,000,000+ merchant locations.
 - Digital dollar market: $258B.
