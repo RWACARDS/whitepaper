@@ -44,7 +44,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 
 - Never mention "white-label". Never name the issuer, the bank, or any partner. The only allowed wording is: "a licensed banking partner under a Visa license". Never name team members.
 - No income promises or forecasts of any kind. Forbidden words: "passive income", "guaranteed income", "investment", "yield", "returns".
-- The term is "gift certificate". The word "voucher" is forbidden.
+- The term is "gift certificate". The word "voucher" is forbidden. Never describe a partner taking payment from a client directly or settling off the platform - a certificate is bought on the platform and the code is handed over.
 - Typography: use the hyphen "-" instead of em or en dashes. No exclamation marks. No emoji in content.
 - Rank names, exact and complete: Starter, Agent, Manager, Pro Manager, Director, Pro Director, Chief Director, Vice President, President, Founder.
 
