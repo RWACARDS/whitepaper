@@ -7,7 +7,7 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Mintlify site. Config and navigation live in `docs.json`.
 - Two languages are live: English (`en/`, the source of truth) and Russian (`ru/`, a faithful translation of the approved English texts). Navigation uses the `languages` array in `docs.json` - one folder per language + one `languages` entry mirroring the same groups and page order. More languages can be added later, but only when explicitly asked.
 - Every content change applies to BOTH languages in the same commit: edit `en/`, mirror it in `ru/` (and vice versa). The two trees stay page-for-page and block-for-block identical in structure; only the text language differs. Internal links use the matching language prefix (`/en/...` in en pages, `/ru/...` in ru pages).
-- Russian canon (fixed by the user): the register is official corporate speech - formal "вы" (lowercase), no colloquialisms or slang. Fixed vocabulary: "криптовалюта" (never "крипта"), "лист ожидания" (never "вейтлист"), "личный кабинет" (never "аккаунт"), "повышение тарифа" (never "апгрейд"), "привязка"/"связь" (never "связка"), "водительское удостоверение", "заграничный паспорт", "фотографии" (not "фото"), "приглашение" (not "инвайт"), "номер отслеживания" (not "трек-номер"), "seed-фразы". Rank names, tier names (Standard/Premium/Signature/Black), "Royalty Program", "RWA NFTFI" and the four legal document names stay in English; "gift certificate" = "подарочный сертификат" ("ваучер" forbidden); the banking formula is "лицензированный банковский партнёр с лицензией Visa"; the verbatim disclaimers are "не обещает и не гарантирует доход" and "не предоставляет юридических, налоговых или финансовых консультаций"; forbidden words include "пассивный доход", "гарантированный доход", "инвестиции", "доходность". Numbers keep the canonical US format ($2,500, 2.8%). All other hard content rules (hyphens only, no exclamation marks, no emoji, dollar escaping, USDC-TRC ban) apply to Russian pages exactly as to English ones.
+- Russian canon (fixed by the user): the register is official corporate speech - formal "вы" (lowercase), no colloquialisms or slang. Fixed vocabulary: "криптовалюта" (never "крипта"), "лист ожидания" (never "вейтлист"), "личный кабинет" (never "аккаунт"), "повышение тарифа" (never "апгрейд"), "привязка"/"связь" (never "связка"), "водительское удостоверение", "заграничный паспорт", "фотографии" (not "фото"), "приглашение" (not "инвайт"), "номер отслеживания" (not "трек-номер"), "seed-фразы". Rank names, tier names (Standard/Premium/Black/Signature), "Royalty Program", "RWA NFTFI" and the four legal document names stay in English; "gift certificate" = "подарочный сертификат" ("ваучер" forbidden); the banking formula is "лицензированный банковский партнёр с лицензией Visa"; the verbatim disclaimers are "не обещает и не гарантирует доход" and "не предоставляет юридических, налоговых или финансовых консультаций"; forbidden words include "пассивный доход", "гарантированный доход", "инвестиции", "доходность". Numbers keep the canonical US format ($2,500, 2.8%). All other hard content rules (hyphens only, no exclamation marks, no emoji, dollar escaping, USDC-TRC ban) apply to Russian pages exactly as to English ones.
 - 15 pages, order is fixed - see `navigation` in `docs.json`.
 - Workflow: the user supplies final page texts one page at a time. Never invent product facts, numbers, names, or marketing copy beyond what the user provides. Placeholder pages only describe scope.
 - Never create images, photos, or graphic assets (SVG logos, favicons, illustrations) on your own initiative - the user supplies all imagery themselves. Build a visual element only when the user explicitly asks for it in the page brief.
@@ -53,17 +53,17 @@ Product whitepaper for RWA NFT Cards - a premium Visa debit card funded with sta
 - Card validity: 3 years (not 5).
 - Premium tier: $199 (not $149).
 - Tier prices: $49 / $199 / $299 / $499.
-- Tier names and composition: Standard (virtual), Premium (virtual, "Clients' choice"), Signature (virtual + plastic), Black (virtual + metal).
-- Per-transaction limits: up to $5,000 / $50,000 / $75,000 / $100,000 (Standard / Premium / Signature / Black).
+- Tier names and composition: Standard (virtual), Premium (virtual, "Clients' choice"), Black (virtual + plastic), Signature (virtual + metal).
+- Per-transaction limits: up to $5,000 / $50,000 / $75,000 / $100,000 (Standard / Premium / Black / Signature).
 - Monthly limits: up to $25,000 / $1,000,000 / $1,500,000 / $3,000,000.
-- ATM withdrawals: Signature and Black only, up to $3,000 per day.
-- Daily limit: $100,000 Black; the other tiers publish no daily limit (fixed by the user: no "to be published" lists anywhere - upgrade terms come later, conversion terms are never detailed by us).
+- ATM withdrawals: Black and Signature only, up to $3,000 per day.
+- Daily limit: $100,000 Signature; the other tiers publish no daily limit (fixed by the user: no "to be published" lists anywhere - upgrade terms come later, conversion terms are never detailed by us).
 - Physical card delivery: included in the tier price.
-- Top-up fee: 2.8% Standard, 2% Premium / Signature / Black ("starts at 2% depending on the tier").
+- Top-up fee: 2.8% Standard, 2% Premium / Black / Signature ("starts at 2% depending on the tier").
 - Minimum top-up: $20; smaller amounts accumulate and are credited with the next top-up.
 - Virtual card issuance: within 5 minutes of tier payment. Verification approval comes first, payment after.
 - Top-up: crypto only - no bank card, no bank transfer.
-- One active card per verified identity - applies to gift certificates too.
+- Verification is passed once; after it an account can hold several cards, each with its own balance and its own limits by its tier. Every card is issued to the verified owner, who bears responsibility for all of them. Never state a maximum number of cards (there is none published) and never promise family members their own named cards or their own KYC. The old "one active card per verified identity" rule is retired.
 - Card currency: US dollars. Maintenance: $0 for the entire 3-year term.
 - USDT: BEP-20 and TRC-20 networks. USDC: BEP-20 only - never mention "USDC TRC-20" in any form. BEP-20 = BNB Chain, TRC-20 = TRON.
 - Rewards withdrawal: weekly, minimum $5, in USDT BEP-20.
