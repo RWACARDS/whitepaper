@@ -4,7 +4,11 @@
 (function () {
   var FLAGS = {
     "English": "🇺🇸",
-    "Русский": "🇷🇺"
+    "Русский": "🇷🇺",
+    "中文": "🇨🇳",
+    "Deutsch": "🇩🇪",
+    "Português": "🇵🇹",
+    "Español": "🇪🇸"
   };
 
   function decorate() {
