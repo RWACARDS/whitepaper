@@ -1,0 +1,17 @@
+/* Full-width hero panel for the page videos. Grayscale only. */
+.video-hero {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 16px;
+  margin: 1.75rem 0 2.5rem;
+  background: #0a0a0a;
+  border: 1px solid rgb(10 10 10 / 0.08);
+  box-shadow: 0 14px 40px rgb(10 10 10 / 0.12);
+}
+
+html.dark .video-hero {
+  border-color: rgb(255 255 255 / 0.09);
+  box-shadow: none;
+}
