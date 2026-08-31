@@ -122,6 +122,166 @@
             ]
           }
         ]
+      },
+      {
+        "language": "cn",
+        "groups": [
+          {
+            "group": "概览",
+            "pages": [
+              "cn/introduction",
+              "cn/trust-and-security"
+            ]
+          },
+          {
+            "group": "卡片",
+            "pages": [
+              "cn/product",
+              "cn/limits-and-fees",
+              "cn/how-to-get-your-card",
+              "cn/top-up-and-everyday-use",
+              "cn/physical-cards",
+              "cn/gift-certificates"
+            ]
+          },
+          {
+            "group": "合作伙伴计划",
+            "pages": [
+              "cn/royalty-program",
+              "cn/rwa-nftfi-ecosystem"
+            ]
+          },
+          {
+            "group": "资源",
+            "pages": [
+              "cn/roadmap",
+              "cn/faq",
+              "cn/glossary",
+              "cn/support",
+              "cn/legal"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "de",
+        "groups": [
+          {
+            "group": "Überblick",
+            "pages": [
+              "de/introduction",
+              "de/trust-and-security"
+            ]
+          },
+          {
+            "group": "Die Karte",
+            "pages": [
+              "de/product",
+              "de/limits-and-fees",
+              "de/how-to-get-your-card",
+              "de/top-up-and-everyday-use",
+              "de/physical-cards",
+              "de/gift-certificates"
+            ]
+          },
+          {
+            "group": "Partnerprogramm",
+            "pages": [
+              "de/royalty-program",
+              "de/rwa-nftfi-ecosystem"
+            ]
+          },
+          {
+            "group": "Ressourcen",
+            "pages": [
+              "de/roadmap",
+              "de/faq",
+              "de/glossary",
+              "de/support",
+              "de/legal"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "pt",
+        "groups": [
+          {
+            "group": "Visão geral",
+            "pages": [
+              "pt/introduction",
+              "pt/trust-and-security"
+            ]
+          },
+          {
+            "group": "O cartão",
+            "pages": [
+              "pt/product",
+              "pt/limits-and-fees",
+              "pt/how-to-get-your-card",
+              "pt/top-up-and-everyday-use",
+              "pt/physical-cards",
+              "pt/gift-certificates"
+            ]
+          },
+          {
+            "group": "Programa de parceiros",
+            "pages": [
+              "pt/royalty-program",
+              "pt/rwa-nftfi-ecosystem"
+            ]
+          },
+          {
+            "group": "Recursos",
+            "pages": [
+              "pt/roadmap",
+              "pt/faq",
+              "pt/glossary",
+              "pt/support",
+              "pt/legal"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "groups": [
+          {
+            "group": "Visión general",
+            "pages": [
+              "es/introduction",
+              "es/trust-and-security"
+            ]
+          },
+          {
+            "group": "La tarjeta",
+            "pages": [
+              "es/product",
+              "es/limits-and-fees",
+              "es/how-to-get-your-card",
+              "es/top-up-and-everyday-use",
+              "es/physical-cards",
+              "es/gift-certificates"
+            ]
+          },
+          {
+            "group": "Programa de socios",
+            "pages": [
+              "es/royalty-program",
+              "es/rwa-nftfi-ecosystem"
+            ]
+          },
+          {
+            "group": "Recursos",
+            "pages": [
+              "es/roadmap",
+              "es/faq",
+              "es/glossary",
+              "es/support",
+              "es/legal"
+            ]
+          }
+        ]
       }
     ]
   },
