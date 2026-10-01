@@ -20,7 +20,7 @@
     "default": "light"
   },
   "banner": {
-    "content": "Sales start September 29, 2026 - [join the waitlist](https://rwanftcards.com)",
+    "content": "Sales are open - [get your card](https://rwanftcards.com)",
     "dismissible": true
   },
   "contextual": {
@@ -65,19 +65,13 @@
             ]
           },
           {
-            "group": "Partner Program",
-            "pages": [
-              "en/royalty-program",
-              "en/rwa-nftfi-ecosystem"
-            ]
-          },
-          {
             "group": "Resources",
             "pages": [
               "en/roadmap",
               "en/faq",
               "en/glossary",
               "en/support",
+              "en/community",
               "en/legal"
             ]
           }
@@ -105,19 +99,13 @@
             ]
           },
           {
-            "group": "Партнёрская программа",
-            "pages": [
-              "ru/royalty-program",
-              "ru/rwa-nftfi-ecosystem"
-            ]
-          },
-          {
             "group": "Ресурсы",
             "pages": [
               "ru/roadmap",
               "ru/faq",
               "ru/glossary",
               "ru/support",
+              "ru/community",
               "ru/legal"
             ]
           }
@@ -145,19 +133,13 @@
             ]
           },
           {
-            "group": "合作伙伴计划",
-            "pages": [
-              "cn/royalty-program",
-              "cn/rwa-nftfi-ecosystem"
-            ]
-          },
-          {
             "group": "资源",
             "pages": [
               "cn/roadmap",
               "cn/faq",
               "cn/glossary",
               "cn/support",
+              "cn/community",
               "cn/legal"
             ]
           }
@@ -185,19 +167,13 @@
             ]
           },
           {
-            "group": "Partnerprogramm",
-            "pages": [
-              "de/royalty-program",
-              "de/rwa-nftfi-ecosystem"
-            ]
-          },
-          {
             "group": "Ressourcen",
             "pages": [
               "de/roadmap",
               "de/faq",
               "de/glossary",
               "de/support",
+              "de/community",
               "de/legal"
             ]
           }
@@ -225,19 +201,13 @@
             ]
           },
           {
-            "group": "Programa de parceiros",
-            "pages": [
-              "pt/royalty-program",
-              "pt/rwa-nftfi-ecosystem"
-            ]
-          },
-          {
             "group": "Recursos",
             "pages": [
               "pt/roadmap",
               "pt/faq",
               "pt/glossary",
               "pt/support",
+              "pt/community",
               "pt/legal"
             ]
           }
@@ -265,19 +235,13 @@
             ]
           },
           {
-            "group": "Programa de socios",
-            "pages": [
-              "es/royalty-program",
-              "es/rwa-nftfi-ecosystem"
-            ]
-          },
-          {
             "group": "Recursos",
             "pages": [
               "es/roadmap",
               "es/faq",
               "es/glossary",
               "es/support",
+              "es/community",
               "es/legal"
             ]
           }
@@ -285,6 +249,76 @@
       }
     ]
   },
+  "footer": {
+    "socials": {
+      "telegram": "https://t.me/rwanftcardchat",
+      "instagram": "https://www.instagram.com/rwanftcard/",
+      "x": "https://x.com/rwanftcard",
+      "youtube": "https://www.youtube.com/@rwanftcard"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/en/royalty-program",
+      "destination": "/en/introduction"
+    },
+    {
+      "source": "/ru/royalty-program",
+      "destination": "/ru/introduction"
+    },
+    {
+      "source": "/cn/royalty-program",
+      "destination": "/cn/introduction"
+    },
+    {
+      "source": "/de/royalty-program",
+      "destination": "/de/introduction"
+    },
+    {
+      "source": "/pt/royalty-program",
+      "destination": "/pt/introduction"
+    },
+    {
+      "source": "/es/royalty-program",
+      "destination": "/es/introduction"
+    },
+    {
+      "source": "/royalty-program",
+      "destination": "/en/introduction"
+    },
+    {
+      "source": "/en/rwa-nftfi-ecosystem",
+      "destination": "/en/introduction"
+    },
+    {
+      "source": "/ru/rwa-nftfi-ecosystem",
+      "destination": "/ru/introduction"
+    },
+    {
+      "source": "/cn/rwa-nftfi-ecosystem",
+      "destination": "/cn/introduction"
+    },
+    {
+      "source": "/de/rwa-nftfi-ecosystem",
+      "destination": "/de/introduction"
+    },
+    {
+      "source": "/pt/rwa-nftfi-ecosystem",
+      "destination": "/pt/introduction"
+    },
+    {
+      "source": "/es/rwa-nftfi-ecosystem",
+      "destination": "/es/introduction"
+    },
+    {
+      "source": "/rwa-nftfi-ecosystem",
+      "destination": "/en/introduction"
+    },
+    {
+      "source": "/introduction",
+      "destination": "/en/introduction"
+    }
+  ],
   "search": {
     "prompt": "Search the whitepaper"
   }
